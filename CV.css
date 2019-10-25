@@ -4,7 +4,7 @@ a {
 }
 
 a:hover {
-  color: red;
+  color: grey;
 }
 
 .titre {
@@ -23,4 +23,31 @@ a:hover {
 
 .info > img {
   margin-right: 16px;
+}
+
+.body {
+  background-color: #B6CACA;
+}
+
+.experience {
+  font-family: monospace;
+  font-size: 20px;
+  margin: 80px 0;
+  margin-left: 32px ;
+}
+.competence {
+  font-family: monospace;
+  font-size: 20px;
+  margin: 80px 0;
+}
+.progress {
+  font-size: 20px;
+  height: 80%;
+  margin-top: 20px;
+}
+.langue {
+ margin-top: 32px;
+}
+hr {
+  border-bottom: 1px solid black;
 }
