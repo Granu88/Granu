@@ -24,7 +24,9 @@ a:hover {
 .info > img {
   margin-right: 16px;
 }
-
+.maitrise {
+  font-size: 30px;
+}
 .body {
   background-color: #B6CACA;
 }

@@ -11,7 +11,7 @@
 
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
       <div class="container">
-        <div class="row col col-md-2">
+        <div class="row col col-md-2"> <!-- sytème de colone tj 12 -->
           <img src="images/photo.jpg" alt="ma photo" height="200px">
         </div>
           <div class="row col col-md-4">
@@ -52,7 +52,16 @@
           <div class="competence">
             <h2 class="fas fa-lightbulb"> Compétences</h2>
             <hr>
+            <div class="maitrise">
+              <ul>  <!-- code infobulles -->
+                <li><a data-toggle="tooltip" data-placement="bottom" title="HTML5"><i class="fab fa-html5"></i></li></a>
+                <li><a data-toggle="tooltip" data-placement="bottom" title="CSS"><i class="fab fa-css3"></i></li></a>
+                <li><a data-toggle="tooltip" data-placement="bottom" title="JavaScript"><i class="fab fa-js"></i></li></a>
+                <li>Microsoft Office</li>
+                <li>Sphynx</li>
+              </ul>
 
+            </div>
           </div>
 
         </div>
@@ -105,8 +114,12 @@
 
 
 
-
-
+<!-- JS infobulles -->
+        <script>
+          $(function () {
+            $('a').tooltip()
+          })
+        </script>
 
   </body>
 </html>
