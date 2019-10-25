@@ -1,0 +1,26 @@
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: red;
+}
+
+.titre {
+  color: white;
+  font-family: monospace;
+}
+
+.info {
+  display: flex;
+  align-items: flex-start;
+  color: white;
+  font-family: monospace;
+  font-size: 20px;
+  margin: 4px 0;
+}
+
+.info > img {
+  margin-right: 16px;
+}
