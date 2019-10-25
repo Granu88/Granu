@@ -17,15 +17,15 @@ a:hover {
   align-items: flex-start;
   color: white;
   font-family: monospace;
-  font-size: 20px;
-  margin: 4px 0;
+  font-size: 1.2em;
+  margin: 0.5em 0;
 }
 
 .info > img {
   margin-right: 16px;
 }
 .maitrise {
-  font-size: 30px;
+  font-size: 1.5em;
 }
 .body {
   background-color: #B6CACA;
@@ -33,22 +33,22 @@ a:hover {
 
 .experience {
   font-family: monospace;
-  font-size: 20px;
+  font-size: 2em;
   margin: 80px 0;
-  margin-left: 32px ;
+  margin-left: 2em ;
 }
 .competence {
   font-family: monospace;
-  font-size: 20px;
+  font-size: 1.5em;
   margin: 80px 0;
 }
 .progress {
-  font-size: 20px;
+  font-size: 1.2em;
   height: 80%;
-  margin-top: 20px;
+  margin-top: 1.5em;
 }
 .langue {
- margin-top: 32px;
+ margin-top: 2em;
 }
 hr {
   border-bottom: 1px solid black;
