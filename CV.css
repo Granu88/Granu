@@ -68,23 +68,46 @@ hr {
 .fab {
   font-size: 3em;
 }
-/* taille smartphone*/
-@media (max-width: 577px)
-{ .competence {font-size: 1em; margin-left:1em;}
-  .experience {font-size: 1em;  margin-left:0;}
+/*taille tablette*/
+@media (max-width: 769px) {
+  .titre {
+    color: white;
+    font-family: fantasy;
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  h1.display-1 {
+    font-size: 4rem;
+  }
   .img-profil {
-    width: 100%;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;""
   }
 
   .img-profil img {
-
+    width: 100%;
   }
 
-}
-/*taille tablette*/
-@media (max-width: 768px) {
-  .img-profil {
-    width: 100%;
+  h2 {
+    font-size: 1.8rem;
+  }
 
+  p {
+    font-size: 1.4rem;
+  }
+}
+
+/* taille smartphone*/
+@media (max-width: 577px) {
+  .competence {font-size: 1em; margin-left:1em;}
+  .experience {font-size: 1em;  margin-left:0;}
+  .img-profil img {
+    width: auto;
+  }
+  h1.display-1 {
+    width: 100%;
+    text-align: center;
+  }
 }
