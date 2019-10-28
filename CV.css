@@ -18,7 +18,8 @@ a:hover {
   color: white;
   font-family: fantasy;
   font-size: 1.2em;
-  margin: 0.5em 0;
+  margin: 0.5em;
+  margin-right: 2em;
 }
 
 .info > img {
@@ -27,7 +28,7 @@ a:hover {
 .maitrise {
   font-size: 1.3em;
 }
-.body {
+.bg-body {
   background-color: #B6CACA;
 }
 
@@ -63,4 +64,27 @@ hr {
 .footer {
   margin: 0;
   margin-top: 1.5em;
+}
+.fab {
+  font-size: 3em;
+}
+/* taille smartphone*/
+@media (max-width: 577px)
+{ .competence {font-size: 1em; margin-left:1em;}
+  .experience {font-size: 1em;  margin-left:0;}
+  .img-profil {
+    width: 100%;
+
+  }
+
+  .img-profil img {
+
+  }
+
+}
+/*taille tablette*/
+@media (max-width: 768px) {
+  .img-profil {
+    width: 100%;
+
 }
